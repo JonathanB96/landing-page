@@ -4,7 +4,123 @@ body
     overflow: auto;
     font-family: sans-serif;
     font-size: 1.3em;
-    
-    
+}
+.accueil
+{
+  background: url(demeure.png);
+  text-align: center; 
+  color: #fff; 
+  width: 100%;
+  height: 400px;
+  padding-top: 180px;
+  -webkit-animation-name: slideInDown;
+  animation-name: slideInDown;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+.accueil a {
+    text-decoration: none;
+    color: white;
+    border: 1px solid grey;
+    padding: 12px 17px;
+    background-color: #2c2929;
+       
+}
+.accueil a:hover{
+    background: #fff;
+    color:#2c2929;
+}
+.accueil p {
+    margin: 40px;
+}
+.infos {
+    text-align: center;
+}
+.para {
+    display: flex;
+    justify-content: space-between;
+}
+.principal
+{
+    background-color: #1c172e;
+    height: 500px;
+    text-align: center;
+    display: flex;
+    }
+.images {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+    padding: 2% 0px;
+    /* justify-content:space-evenly; */
+     
+}
 
+.mix{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: auto;
+    margin: 20px;
+}
+.mix2{
+    background-color: #fff;
+    height: 220px;
+    padding: 10px;
+
+}
+
+.mix img {
+   
+    height: 180px;
+}
+.mix2 p {
+    font-size: 16px;
+}
+.infos2 {
+    text-align:center;
+}
+.contact {
+    display: flex;
+    flex-direction: row;
+    }
+.bleu {
+    text-align: center;
+    background-color: #2690d4;
+    color: #fff;
+    padding: 10px;
+
+}
+.noir {
+    text-align: center;
+    background-color: #1c172e;
+    color: #fff;
+    padding: 10px;
+
+}
+.contact p 
+{
+    font-size: 16px;
+}
+p {
+    line-height: 1.5em;
+}
+
+footer {
+    background-color: #222121 ;
+    display: flex;
+    color:#fff;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+footer div p{
+    padding: 0px;    
+}
+span {
+    color: #2690d4;
 }
